@@ -6,7 +6,6 @@ a module which provides you schemas and validators for messages invovled in thre
 
 ```js
 var { isRoot, isReply } = require('ssb-thread-schema')
-var { isRoot, isReply } = require('./')
 
 const testMsg = {
   type: 'post',
