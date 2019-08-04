@@ -33,15 +33,13 @@ isReply(testMsg)
 
 `Object` can be a full message from the log, or just the content from the message, the validator will take care of it.
 
-If the test Object fails the validation, errors are attached to the function (i.e. `isRoot.errors`, see [Example Usage](#Example-Usage))
+If the test Object fails the validation, errors are attached to the function (i.e. `isRoot.errors`, see [Example Usage](#example-usage))
 
 An optional second argument can be passed to the validator if you want to tell the validator to attach errors to the test Object (this mutates the test Object):
 
 ```js
 isRoot(Object, { attachErrors: true })
 ```
-
-The function takes a
 
 ### `isReply(Object) -> Boolean`
 same pattern ^
