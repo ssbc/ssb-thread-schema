@@ -10,7 +10,7 @@ module.exports = {
       pattern: '^post$'
     },
     root: { $ref: '#/definitions/root' },
-    branch: { $ref: '#/definitions/messageId' },
+    branch: { $ref: '#/definitions/branch' },
     fork: { $ref: '#/definitions/messageId' },
     text: { type: 'string' },
 
