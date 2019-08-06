@@ -48,8 +48,11 @@ test('is-nested-reply', t => {
   t.false(valid(rootMsg), 'excludes roots')
 
   const replyMsg = Mock()
-  delete rootMsg.fork
-  replyMsg.branch = ['%diVJunN4vNqnyN+1EMrMw4QitnJUgueD2ZUcXcZ+yMA=.sha256']
+  delete replyMsg.fork
+  replyMsg.branch = [
+    '%diVJunN4vNqnyN+1EMrMw4QitnJUgueD2ZUcXcZ+yMA=.sha256',
+    '%derrrnN4vNqnyN+1EMrMw4QitnJUgueD2ZUcXcZ+yMA=.sha256'
+  ]
   t.false(valid(replyMsg), 'excludes replies')
 
   const forkMsg = Mock()
