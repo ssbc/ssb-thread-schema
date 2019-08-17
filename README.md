@@ -1,6 +1,6 @@
 # ssb-thread-schema
 
-a module which provides you schemas and validators for messages invovled in threads.
+a module which provides you schemas and validators for messages involved in threads.
 
 ## Example Usage
 
