@@ -1,6 +1,6 @@
 {
   "name": "ssb-thread-schema",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "JSON schemas + validators for common thread messages",
   "main": "index.js",
   "scripts": {

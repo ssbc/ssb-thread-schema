@@ -15,6 +15,7 @@ module.exports = {
     text: { type: 'string' },
 
     // optional
+    contentWarning: { $ref: '#/definitions/contentWarning' },
     recps: { $ref: '#/definitions/recps' },
     mentions: { $ref: '#/definitions/mentions/any' },
 

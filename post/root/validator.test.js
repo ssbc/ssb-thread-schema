@@ -18,7 +18,8 @@ const Mock = () => {
     recps: [
       '@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519',
       '@SomeOne+PcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519'
-    ]
+    ],
+    contentWarning: 'business'
   }
 }
 
