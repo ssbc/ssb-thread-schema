@@ -43,6 +43,14 @@ isRoot(Object, { attachErrors: true })
 ### `isReply(Object) -> Boolean`
 same pattern ^
 
+
+## TOTALLY UNSTABLE
+
+These methods are based on experimental schema which need massive review and are going to be totally over-hauled.
+Do not use them!
+
+If you reeeeaaallly want to, require mehthods out from the files directly yourself.
+
 ### `isNestedReply(Object) -> Boolean`
 same pattern ^
 
@@ -55,6 +63,7 @@ same pattern ^
 
 - the README in each folder with a little more about each message type
 - the birth of forks / nested replies spec : `%+fBXl12aV1wpAdD62RMl1WRhwthDMuAuHH4iNWgB7jA=.sha256`
+  - note it's turned out this 'spec' is way sloppy - has holes in it, and has been implemented differently in Patchwork
 
 ## TODO
 
